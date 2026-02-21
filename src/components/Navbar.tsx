@@ -6,6 +6,7 @@ const navLinks = [
   { label: "Inicio", href: "#inicio" },
   { label: "Sobre Yetzi", href: "#sobre" },
   { label: "Servicios", href: "#servicios" },
+  { label: "Experiencia", href: "#experiencia" },
   { label: "Galería", href: "#galeria" },
   { label: "Testimonios", href: "#testimonios" },
   { label: "Contacto", href: "#contacto" },
