@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImage from "@/assets/hero-yetzi.jpg";
+import aboutImage from "@/assets/segunda-importante.jpeg";
 
 const AboutSection = () => {
   return (
@@ -15,7 +15,7 @@ const AboutSection = () => {
           >
             <div className="relative">
               <img
-                src={heroImage}
+                src={aboutImage}
                 alt="Yetzi, Wedding Planner"
                 className="w-full aspect-[3/4] object-cover object-top rounded-sm"
               />
