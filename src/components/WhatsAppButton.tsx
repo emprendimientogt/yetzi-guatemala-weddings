@@ -10,9 +10,11 @@ const WhatsAppButton = () => {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contactar por WhatsApp"
-      className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[hsl(142,70%,40%)] text-[hsl(0,0%,100%)] flex items-center justify-center shadow-lg hover:scale-110 transition-transform"
+      className="fixed bottom-6 right-6 z-50 flex items-center gap-2 rounded-full bg-[hsl(142,70%,40%)] text-[hsl(0,0%,100%)] px-5 py-3 shadow-lg hover:scale-105 transition-transform"
     >
-      <MessageCircle className="w-6 h-6" />
+      <MessageCircle className="w-5 h-5" />
+      <span className="text-sm font-body font-medium hidden sm:inline">Contáctanos por WhatsApp</span>
+      <span className="text-sm font-body font-medium sm:hidden">WhatsApp</span>
     </a>
   );
 };
